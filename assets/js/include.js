@@ -48,9 +48,7 @@ async function loadRecentPosts() {
 
         // Display newest 3 posts
         posts.slice(0, 3).forEach(post => {
-
             container.innerHTML += createPostCard(post);
-
         });
 
     } catch (err) {
