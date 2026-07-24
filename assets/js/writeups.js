@@ -1,4 +1,4 @@
-async function loadProjects() {
+async function loadWriteups() {
 
     try {
 
@@ -12,24 +12,24 @@ async function loadProjects() {
         const posts = await response.json();
 
 
-        const projects = posts.filter(post =>
+        const selectedPosts = posts.filter(post =>
             post.type === "writeup"
         );
 
 
-        projects.forEach(project => {
+        selectedPosts.forEach(selectedPost => {
 
 
-            const card = createPostCard(project);
+            const card = createPostCard(selectedPost);
 
 
-            switch(project.category) {
+            switch(selectedPost.category) {
 
 
                 case "ctf":
 
                     document.getElementById(
-                        "minecraft-projects"
+                        "ctf-writeups"
                     ).innerHTML += card;
 
                     break;
@@ -39,7 +39,7 @@ async function loadProjects() {
                 case "bug-bounty":
 
                     document.getElementById(
-                        "unity-projects"
+                        "bug-bounty-writeups"
                     ).innerHTML += card;
 
                     break;
