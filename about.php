@@ -1,13 +1,57 @@
-<?php $pageTitle = "About"; ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'head.php'; ?>
+
+<head id="head-placeholder"></head>
 
 <body>
-    <?php include 'header.php'; ?>  
 
+    <!-- Header -->
+    <div id="header-placeholder"></div>
 
+    <!-- About Section -->
+    <main class="container py-5">
 
+        <div class="row justify-content-center">
 
-    <?php include "footer.php"?>
+            <div class="col-lg-8">
+
+                <h1 class="display-4 mb-4">About</h1>
+
+                <p class="lead">
+                    Welcome! I'm glad you're here.
+                </p>
+
+                <p>
+                    This website is where I share blog posts, tutorials,
+                    projects, and other things I'm passionate about.
+                </p>
+
+                <p>
+                    Whether you're here to learn something new or simply browse,
+                    I hope you find something useful and interesting.
+                </p>
+
+                <hr class="my-5">
+
+                <h2>What You'll Find Here</h2>
+
+                <ul>
+                    <li>Blog posts</li>
+                    <li>Programming tutorials</li>
+                    <li>Personal projects</li>
+                    <li>Resources and tools</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="assets/js/include.js"></script>
+
 </body>
+</html>
