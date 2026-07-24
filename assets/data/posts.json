@@ -1,20 +1,47 @@
 [
     {
-        "title": "Building My Portfolio Website",
-        "description": "How I built this website using GitHub Pages.",
-        "url": "posts/portfolio-website.html",
-        "date": "2026-07-24"
+        "title": "PicoCTF 2026",
+        "description": "Reverse engineering and binary exploitation.",
+        "url": "posts/writeups/ctf/picoctf-2026.html",
+        "date": "2026-07-24",
+        "type": "writeup",
+        "category": "ctf",
+        "image": "assets/images/picoctf.png"
     },
     {
-        "title": "Bandit Level 0-10",
-        "description": "My walkthrough for OverTheWire Bandit.",
-        "url": "writeups/overthewire-bandit.html",
-        "date": "2026-07-20"
+        "title": "Reflected XSS Bug Bounty",
+        "description": "Finding and reporting an XSS vulnerability.",
+        "url": "posts/writeups/bug-bounty/xss.html",
+        "date": "2026-07-20",
+        "type": "writeup",
+        "category": "bug-bounty",
+        "image": "assets/images/xss.png"
     },
     {
-        "title": "picoCTF Reverse Engineering",
-        "description": "A reverse engineering challenge writeup.",
-        "url": "writeups/picoctf-2026.html",
-        "date": "2026-07-15"
+        "title": "Minecraft Magic Mod",
+        "description": "A Forge mod adding new spells.",
+        "url": "posts/projects/minecraft/magic-mod.html",
+        "date": "2026-07-18",
+        "type": "project",
+        "category": "minecraft",
+        "image": "assets/images/magicmod.png"
+    },
+    {
+        "title": "Unity Horror Game",
+        "description": "A first-person survival horror game.",
+        "url": "posts/projects/unity/horror-game.html",
+        "date": "2026-07-12",
+        "type": "project",
+        "category": "unity",
+        "image": "assets/images/unitygame.png"
+    },
+    {
+        "title": "Proxmox Homelab",
+        "description": "Building my virtualization server.",
+        "url": "posts/projects/homelab/proxmox.html",
+        "date": "2026-07-01",
+        "type": "project",
+        "category": "homelab",
+        "image": "assets/images/proxmox.png"
     }
 ]
