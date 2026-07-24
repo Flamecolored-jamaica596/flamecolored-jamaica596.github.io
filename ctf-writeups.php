@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" data-page-title="CTF Writeups">
+
+<head id="head-placeholder"></head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+
+        <div class="text-center mb-5">
+
+            <h1 class="display-4">CTF Writeups</h1>
+
+            <p class="lead">
+                A collection of Capture the Flag competitions, labs,
+                and cybersecurity challenges I've completed.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Writeup -->
+            <div class="col-lg-6">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            picoCTF 2026
+                        </h3>
+
+                        <p class="card-text">
+                            Reverse engineering, cryptography,
+                            binary exploitation, and web challenges.
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer bg-white d-flex justify-content-between">
+
+                        <a href="writeups/picoctf-2026.html"
+                           class="btn btn-primary">
+                            Read Writeup
+                        </a>
+
+                        <a href="assets/documents/ctf/picoctf-2026.pdf"
+                           class="btn btn-outline-secondary"
+                           target="_blank">
+                            PDF
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Writeup -->
+            <div class="col-lg-6">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            OverTheWire - Bandit
+                        </h3>
+
+                        <p class="card-text">
+                            Linux command line, SSH,
+                            permissions, and scripting.
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer bg-white d-flex justify-content-between">
+
+                        <a href="writeups/overthewire-bandit.html"
+                           class="btn btn-primary">
+                            Read Writeup
+                        </a>
+
+                        <a href="assets/documents/ctf/overthewire-bandit.pdf"
+                           class="btn btn-outline-secondary"
+                           target="_blank">
+                            PDF
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Writeup -->
+            <div class="col-lg-6">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Hack The Box
+                        </h3>
+
+                        <p class="card-text">
+                            Enumeration, exploitation,
+                            privilege escalation,
+                            and persistence.
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer bg-white d-flex justify-content-between">
+
+                        <a href="writeups/htb-starting-point.html"
+                           class="btn btn-primary">
+                            Read Writeup
+                        </a>
+
+                        <a href="assets/documents/ctf/htb-starting-point.pdf"
+                           class="btn btn-outline-secondary"
+                           target="_blank">
+                            PDF
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Future Writeups -->
+            <div class="col-lg-6">
+
+                <div class="card h-100 border-secondary">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            More Coming Soon
+                        </h3>
+
+                        <p class="card-text">
+                            New writeups will be added as I complete
+                            additional CTFs and security labs.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="assets/js/include.js"></script>
+
+</body>
+</html>
