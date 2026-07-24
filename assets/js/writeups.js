@@ -8,48 +8,36 @@ async function loadWriteups() {
             throw new Error("Unable to load posts.json");
         }
 
-
         const posts = await response.json();
 
 
-        const selectedPosts = posts.filter(post =>
+        const writeups = posts.filter(post =>
             post.type === "writeup"
         );
 
 
-        selectedPosts.forEach(selectedPost => {
+        writeups.forEach(writeup => {
+
+            const card = createPostCard(writeup);
 
 
-            const card = createPostCard(selectedPost);
+            if (writeup.category === "ctf") {
+
+                document.getElementById("ctf-writeups").innerHTML += card;
+
+            }
 
 
-            switch(selectedPost.category) {
+            if (writeup.category === "bug-bounty") {
 
-
-                case "ctf":
-
-                    document.getElementById(
-                        "ctf-writeups"
-                    ).innerHTML += card;
-
-                    break;
-
-
-
-                case "bug-bounty":
-
-                    document.getElementById(
-                        "bug-bounty-writeups"
-                    ).innerHTML += card;
-
-                    break;
+                document.getElementById("bug-bounty-writeups").innerHTML += card;
 
             }
 
         });
 
 
-    } catch(err) {
+    } catch (err) {
 
         console.error(err);
 
