@@ -13,7 +13,7 @@ async function loadProjects() {
 
 
         const projects = posts.filter(post =>
-            post.type === "project"
+            post.type === "writeup"
         );
 
 
@@ -26,7 +26,7 @@ async function loadProjects() {
             switch(project.category) {
 
 
-                case "minecraft":
+                case "ctf":
 
                     document.getElementById(
                         "minecraft-projects"
@@ -36,20 +36,10 @@ async function loadProjects() {
 
 
 
-                case "unity":
+                case "bug-bounty":
 
                     document.getElementById(
                         "unity-projects"
-                    ).innerHTML += card;
-
-                    break;
-
-
-
-                case "homelab":
-
-                    document.getElementById(
-                        "homelab-projects"
                     ).innerHTML += card;
 
                     break;
