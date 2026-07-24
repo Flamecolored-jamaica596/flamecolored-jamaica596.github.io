@@ -60,5 +60,5 @@ async function loadWriteups() {
 
 document.addEventListener(
     "DOMContentLoaded",
-    loadProjects
+    loadWriteups
 );
