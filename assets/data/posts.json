@@ -6,7 +6,7 @@
         "date": "2026-07-24",
         "type": "writeup",
         "category": "ctf",
-        "image": "assets/images/picoctf.png"
+        "image": "assets/images/posts/picoctf.png"
     },
     {
         "title": "Reflected XSS Bug Bounty",
@@ -15,7 +15,7 @@
         "date": "2026-07-20",
         "type": "writeup",
         "category": "bug-bounty",
-        "image": "assets/images/xss.png"
+        "image": "assets/images/posts/xss.png"
     },
     {
         "title": "Minecraft Magic Mod",
@@ -24,7 +24,7 @@
         "date": "2026-07-18",
         "type": "project",
         "category": "minecraft",
-        "image": "assets/images/magicmod.png"
+        "image": "assets/images/posts/magicmod.png"
     },
     {
         "title": "Unity Horror Game",
@@ -33,7 +33,7 @@
         "date": "2026-07-12",
         "type": "project",
         "category": "unity",
-        "image": "assets/images/unitygame.png"
+        "image": "assets/images/posts/unitygame.png"
     },
     {
         "title": "Proxmox Homelab",
@@ -42,6 +42,6 @@
         "date": "2026-07-01",
         "type": "project",
         "category": "homelab",
-        "image": "assets/images/proxmox.png"
+        "image": "assets/images/posts/proxmox.png"
     }
 ]
