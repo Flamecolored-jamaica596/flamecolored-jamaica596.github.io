@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Building My Portfolio Website",
+        "description": "How I built this website using GitHub Pages.",
+        "url": "posts/portfolio-website.html",
+        "date": "2026-07-24"
+    },
+    {
+        "title": "Bandit Level 0-10",
+        "description": "My walkthrough for OverTheWire Bandit.",
+        "url": "writeups/overthewire-bandit.html",
+        "date": "2026-07-20"
+    },
+    {
+        "title": "picoCTF Reverse Engineering",
+        "description": "A reverse engineering challenge writeup.",
+        "url": "writeups/picoctf-2026.html",
+        "date": "2026-07-15"
+    }
+]
