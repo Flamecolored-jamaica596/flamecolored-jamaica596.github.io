@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "BBH Bogle";
+    src:
+      url("../fonts/BBH-Bogle.ttf") format("truetype"),
+      url("../fonts/BBHBogle-Regular.woff2") format("woff2"),
+      url("../fonts/BBHBogle-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BBH Bogle";
+    src:
+      url("../fonts/BBH-Bogle.ttf") format("truetype"),
+      url("../fonts/BBHBogle-Regular.woff2") format("woff2"),
+      url("../fonts/BBHBogle-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --bs-body-font-family: "Inter", system-ui, sans-serif;
+    --bs-heading-font-family: "BBH Bogle", sans-serif;
+}
+
+.page-title {
+  font-family: "BBH Bogle", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.site-title {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Overrides bootstrap fonts*/
+body {
+  font-family: var(--bs-body-font-family);
+}
+
+/* Overrides bootstrap fonts */
+h1, h2, h3, h4, h5 {
+    font-family: var(--bs-heading-font-family);
+}
+
+/* Overrides sizing for mobile */
+@media (max-width: 768px) {
+    .jumbotron .page-title {
+        font-size: 2.4rem;
+    }
+}
