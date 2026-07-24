@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function loadRecentPosts() {
     const container = document.getElementById("recent-posts");
 
-    // Don't do anything on pages that don't have a Recent Posts section
+    // Only run on pages that have Recent Posts
     if (!container) return;
 
     try {
@@ -41,25 +41,74 @@ async function loadRecentPosts() {
 
         const posts = await response.json();
 
-        posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+        // Sort newest first
+        posts.sort((a, b) =>
+            new Date(b.date) - new Date(a.date)
+        );
 
+        // Display newest 3 posts
         posts.slice(0, 3).forEach(post => {
-            container.innerHTML += `
-                <div class="col-md-4">
-                    <div class="card mb-4 h-100">
-                        <div class="card-body">
-                            <h5>${post.title}</h5>
-                            <p>${post.description}</p>
-                            <a href="${post.url}" class="btn btn-primary">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            `;
+
+            container.innerHTML += createPostCard(post);
+
         });
 
     } catch (err) {
         console.error(err);
     }
+}
+
+
+function createPostCard(post) {
+
+    return `
+        <div class="col-md-4">
+
+            <div class="card mb-4 h-100 shadow-sm">
+
+                ${post.image ? `
+                <img src="${post.image}"
+                     class="card-img-top"
+                     alt="${post.title}">
+                ` : ""}
+
+                <div class="card-body">
+
+                    <small class="text-muted">
+                        ${formatCategory(post.category)}
+                    </small>
+
+                    <h5 class="card-title mt-2">
+                        ${post.title}
+                    </h5>
+
+                    <p class="card-text">
+                        ${post.description}
+                    </p>
+
+                    <a href="${post.url}"
+                       class="btn btn-primary">
+                        Read More
+                    </a>
+
+                </div>
+
+                <div class="card-footer text-muted">
+                    ${post.date}
+                </div>
+
+            </div>
+
+        </div>
+    `;
+}
+
+
+function formatCategory(category) {
+
+    if (!category) return "";
+
+    return category
+        .replace("-", " ")
+        .replace(/\b\w/g, char => char.toUpperCase());
 }
